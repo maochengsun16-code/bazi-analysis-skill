@@ -1,0 +1,6 @@
+interface:
+  display_name: "八字分析"
+  short_description: "实战派八字排盘、格局用神分析与大运流年应期判断"
+  default_prompt: "Use $bazi-analysis to analyze this BaZi chart with the 实战派 workflow."
+policy:
+  allow_implicit_invocation: true
