@@ -28,7 +28,11 @@ https://github.com/maochengsun16-code/bazi-analysis-skill
 
 如果你的 Agent 支持从 GitHub 导入 Skill，它会自动读取仓库并安装。
 
-如果你的 Agent 不支持自动安装，可以手动下载本仓库，然后把 `bazi-analysis/` 文件夹导入到对应 Agent 的 Skill、Knowledge、Tool 或自定义能力目录中。
+如果你的 Agent 不支持自动安装，可以手动下载本仓库，然后导入 `bazi-analysis/` 文件夹到对应 Agent 的 Skill、Knowledge、Tool 或自定义能力目录中。
+
+> 注意：本仓库的 Skill 本体位于 `bazi-analysis/` 文件夹中。
+> 安装或导入时请导入 `bazi-analysis/` 文件夹，不要把仓库根目录当作 Skill 本体。
+> Skill 主入口文件是 `bazi-analysis/SKILL.md`。
 
 ## 使用前必须知道
 
